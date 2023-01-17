@@ -1,0 +1,170 @@
+*{
+	background-color:  white;
+	margin: 0px;
+}
+.black-col{
+	background-color:#000000;
+	width: 100%;
+	color: black;
+}
+.title-col{
+	background-color: black;
+	font-family: Moon Dance;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.img1-col img{
+	background-color: black;
+	width: 100%;
+	height: auto;
+}
+.img1-col{
+    width: 100%;
+    background-color: black;
+}
+.img1-col img {
+        
+        position: center;
+        border-bottom: opx solid black;
+        overflow: hidden;
+        animation: animate 3.5s linear forwards;
+    }
+ 
+    
+ 
+    @keyframes animate {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+        30% {
+            width: 50px;
+            height: 0px;
+        }
+        30% {
+            width: 50px;
+            height: 0px;
+        }
+        60% {
+            width: 50px;
+            height: 80px;
+        }
+    }
+
+.main-col img{
+	background-color: white;
+	width: 100px;
+	text-align: center;
+}
+.main-col {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: Moon Dance;
+	color: white;
+
+}
+.main-col h1 {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: Moon Dance;
+	color: black;
+
+}
+.work-col{
+	color: black;
+	background-color: black;
+	font-family:Moon Dance ;
+	text-align: center;
+}
+.img-col img{
+	text-align: center;
+	background-color: white;
+	width: 100px;
+	height: fit-content;
+}
+.flex-col img{
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	max-height: auto;
+}
+.flex-col{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.gallery-col{
+	text-align: center;
+	font-family: Moon Dance;
+}
+.area-col{
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 300px;
+	outline: 2px solid black;
+}
+.contact-col{
+	text-align: center;
+	color: black;
+	font-family: Moon Dance;
+
+}
+.contact-col button{
+	outline: 1px solid white;
+	padding-top: 30px;
+	background-color: transparent;
+	
+}
+.media-col img{
+	justify-content: center;
+	 width: 40px;
+	 height: auto;
+	 display: flex;
+}
+.media-col{
+	padding-top: 20px;
+	justify-content: center;
+	gap: 10px;
+	justify-content: space-around;
+	display: flex;
+	text-align: center;
+}
+h1{
+	font-family:  Moon Dance;
+	text-align: center;
+	font-size: 40px;
+}
+.user-col{
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+	height: 130px;
+	background-color: black;
+	color: white;
+}
+.issue-col{
+	background-color: white;
+	width: 100%;
+	height: 20px;
+}
+@media only screen and (max-width: 600px) {
+ .title-col{
+	font-family: Moon Dance;
+	color: white;
+	text-align: center;
+	font-size: 27px;
+}
+.gallery-col  h1{
+	text-align: center;
+	font-family: Moon Dance;
+	font-size: 27px;
+}
+}
